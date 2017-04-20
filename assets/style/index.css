@@ -1,0 +1,56 @@
+/*.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 1px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}*/
+
+
+
+
+/*Banner*/
+.banner{
+  background-color: #EEFFFF;
+}
+
+.banner-image{
+  display: inline-block;
+  padding-left: 10%;
+  width: 50%;
+}
+.banner-text-block{
+  display: inline-block;
+  padding: 0 2%;
+  width: 30%
+}
+
+/*resources*/
+
+.resource{
+  padding: 160px 0;
+}
+
+.resource .text-block
+{
+  padding-left: 7%
+}
+.resource h4{
+  font-size: 6em;
+  color: #292929;
+}
+.resource .highlight{
+  font-weight: 200;
+  color: #38C5CD;
+}
+.resource p{
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 1.7em;
+  color: #6b6b6b;
+  font-weight: 300;
+}
