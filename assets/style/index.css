@@ -13,6 +13,9 @@
 body{
   color: #494949;
 }
+h4{
+  font-size: 3em;
+}
 
 
 
@@ -75,10 +78,7 @@ body{
   padding: 150px 0 0 74%;
   text-shadow: 3px 3px 7px #ffffff;
 }
-.online-space h4
-{
-  font-size: 3em;
-}
+
 
 .online-space p{
   padding-top: 20px;
@@ -93,7 +93,7 @@ body{
 #teaching-image{
   width: 100%;
 }
-.text-block{
+.teaching-space .text-block{
   text-align: center;
   padding-top: 10px;
 }
@@ -102,7 +102,6 @@ body{
   vertical-align: middle;
 }
 .teaching-text h4{
-  font-size: 4em;
   padding-right: 3px;
 }
 .teaching-subtext{
@@ -128,8 +127,8 @@ body{
   padding-top: 10px;
 }
 #study-image{
-  padding-left: 10%;
-  width: 55%;
+  padding-left: 7%;
+  width: 58%;
   display: inline-block;
 }
 .study-space .text-block{
@@ -144,12 +143,74 @@ body{
   background-position: center;
 }
 .study-space h4{
-  font-size: 3em;
   padding-bottom: 20px;
 }
 .study-space p{
+  text-align: center;
   padding: 14px;
   font-weight: 200;
   font-size: 0.9em;
   line-height: 20px;
+}
+
+/*互动课堂*/
+.smartclass{
+  height: 695px;
+  background-image: url("../images/bg-smartclass.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.smartclass table{
+  color: white;
+}
+.smartclass .container{
+  padding-top: 50px;
+}
+.smartclass .title-deco-blue
+{
+  width: 4px;
+  background-color: #21E3EE;
+}
+.smartclass h4{
+  padding-left: 10px;
+  margin: 0;
+}
+.smartclass p{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 280px;
+}
+/*teaching mode*/
+.teaching-mode{
+  height: 650px;
+  background-image: url("../images/bg-classmode.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.teaching-mode .container{
+  padding-top: 80px;
+}
+
+.teaching-mode .rect-header{
+  background-image: url("../images/classmode-block.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+}
+.teaching-mode h4{
+  padding: 5px;
+  margin: 0;
+}
+.teaching-mode .cards{
+  padding-top: 80px;
+  text-align: center;
+}
+.teaching-mode h6{
+  padding-top: 20px;
+  font-size: 1.6em;
+  font-weight: 200;
 }
