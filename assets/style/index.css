@@ -39,7 +39,7 @@ h4{
 /*resources*/
 
 .resource{
-  padding: 180px 0;
+  padding: 160px 0;
 }
 
 .resource .text-block
@@ -213,4 +213,42 @@ h4{
   padding-top: 20px;
   font-size: 1.6em;
   font-weight: 200;
+}
+
+/*成功案例*/
+.sample{
+  background-color: #F0F0F0;
+}
+.sample .container{
+  padding-top: 20px;
+  text-align: center;
+}
+.sample .rect-header{
+  background-image: url("../images/case-block.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: top;
+  position: absolute;
+}
+.sample h4{
+  font-size: 2.4em;
+  padding: 15px;
+}
+.sample .schools{
+  display:  inline-block;
+  padding-top: 100px;
+  width: 90%;
+  padding-bottom: 15px;
+}
+.sample .col{
+  display: inline-block;
+  text-align: left;
+  padding-left: 10%;
+  line-height: 20px;
+  font-weight: 200;
+  color: #464646;
+}
+.sample .more{
+  padding:15px 0;
 }
