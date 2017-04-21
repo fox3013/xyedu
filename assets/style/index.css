@@ -85,7 +85,7 @@ body .text-block.xxs-only{
   background-clip: content-box;
   background-position: 50% 60%;
   background-repeat: no-repeat;
-  background-image: url("../images/bg-online-space.png");
+  background-image: url("../images/bg-online-space.jpg");
   background-color: #EEF0EF;
 }
 .online-space .text-block{
@@ -391,7 +391,7 @@ body .text-block.xxs-only{
   }
   .online-space{
     height: 360px;
-    background-position: 80% 50%;
+    background-position: 70% 50%;
   }
   .online-space .text-block{
     padding: 150px 0px 20px 54.1%;
