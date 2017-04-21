@@ -116,4 +116,40 @@ li.nav-item .nav-a{
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
     color: #bfbfbf
   }
+  .navbar{
+    padding: 8px;
+  }
+}
+
+@media (max-width: 450px){
+  .navbar{
+    padding: 2px;
+  }
+  .navbar-logo{
+    display: none;
+  }
+  .navbar-title{
+    font-size: 1.6em;
+    padding-top: 8px;
+    font-weight: 300;
+  }
+
+  .footer{
+    padding: 6px 5%;
+
+  }
+  .footer h3{
+    font-size: 1em;
+  }
+
+  .contact-table td{
+    font-size: 0.5em;
+    padding-right: 30px;
+  }
+
+  .copyright{
+    display: inline-block;
+    font-size: 0.45em;
+    padding-top: 20px;
+  }
 }

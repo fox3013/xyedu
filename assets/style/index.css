@@ -1,23 +1,36 @@
-.row.vdivide [class*='col-']:not(:last-child):after {
-  background: #e0e0e0;
-  width: 1px;
-  content: "";
-  display:block;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  min-height: 70px;
+
+
+@media (min-width: 451px){
+  .row.vdivide [class*='col-']:not(:last-child):after {
+    background: #e0e0e0;
+    width: 1px;
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    min-height: 70px;
+  }
 }
 
 body{
   color: #494949;
+  overflow-x:hidden;
 }
 h4{
   font-size: 3em;
 }
 
-
+.sm-below{
+  display: none;
+}
+body .text-block.xxs-only{
+  display: none;
+}
+.xxs-only{
+  display: none;
+}
 
 
 /*Banner*/
@@ -184,7 +197,7 @@ h4{
 }
 /*teaching mode*/
 .teaching-mode{
-  height: 650px;
+  min-height:650px;
   background-image: url("../images/bg-classmode.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -253,4 +266,186 @@ h4{
 }
 .sample .more{
   padding:15px 0;
+}
+
+@media (max-width: 1210px){
+  h4{
+    font-size: 2.4em;
+  }
+  .resource h4{
+    font-size: 4em;
+  }
+  .resource p{
+    font-size: 1.5em;
+  }
+  .teaching-text h5{
+    font-size: 2em;
+  }
+  .teaching-text p{
+    font-size: 0.9em;
+  }
+  .smartclass{
+    height: 500px;
+  }
+  .smartclass .container{
+    padding-left: 10%;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 991px){
+  .md-above{
+    display: none;
+  }
+  .sm-below{
+    display: block;
+  }
+  h4{
+    font-size: 2em;
+  }
+  .resource h4{
+    font-size: 3em;
+  }
+  .resource p{
+    font-size: 1.2em;
+  }
+  .teaching-mode{
+    min-height: 0;
+  }
+  .teaching-mode .container{
+    padding-top: 40px;
+  }
+  .teaching-mode .cards{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .teaching-mode .card img{
+    width: 50%;
+  }
+  .teaching-mode h6{
+    padding-top: 0;
+    padding-bottom: 5px;
+  }
+  .sample .schools{
+    padding-top: 110px;
+  }
+}
+@media (max-width: 767px){
+  .sample .sm-above{
+    display: none;
+  }
+  .resource h4{
+    font-size: 2em;
+  }
+  .resource p{
+    font-size: 1em;
+  }
+  .teaching-mode h6{
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 450px){
+  h4{
+    font-size: 2em;
+  }
+
+  .xs-above{
+    display: none;
+  }
+  .xxs-only{
+    display: block;
+  }
+
+  .banner{
+    min-height: 100px;
+
+    text-align: center;
+  }
+  img.banner-image{
+    display: none;
+  }
+  .banner-text-block{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 50%;
+  }
+
+  .resource{
+    padding: 40px 0;
+  }
+
+  .resource h4{
+    font-size: 1.1em;
+  }
+  .resource p{
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .online-space{
+    height: 360px;
+    background-position: 70% 50%;
+  }
+  .online-space .text-block{
+    padding: 150px 0px 20px 53%;
+  }
+
+  .online-space h4{
+    font-size: 1.3em;
+  }
+  .online-space p{
+    padding-top: 0;
+    font-size: 0.5em;
+  }
+  .teaching-space{
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .teaching-space .teaching-text{
+    text-align: center;
+  }
+  .teaching-space h5{
+    display: none;
+  }
+  .text-block.xxs-only{
+    display: inline-block;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .text-block.xs-above{
+    display: none;
+  }
+  .study-space h4{
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .study-space #study-image{
+    width: 80%;
+  }
+  .smartclass p{
+    padding:10px;
+  }
+
+  .teaching-mode h6{
+    font-size: 1em;
+  }
+  .sample .schools{
+    padding-top: 0;
+  }
+  .sample .col{
+    padding-left: 10px;
+    padding-right: 0;
+    line-height: 16px;
+    color: #666666;
+    font-size: 0.8em;
+  }
+  .schools .row.vdivide{
+    padding-left: 10%;
+  }
+
+
 }
