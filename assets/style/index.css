@@ -14,6 +14,9 @@
   }
 }
 
+
+
+
 body{
   color: #494949;
   overflow-x:hidden;
@@ -45,9 +48,25 @@ body .text-block.xxs-only{
   width: 50%;
 }
 .banner-text-block{
+  text-align: center;
+  background-image: url("../images/banner-text-block.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   display: inline-block;
-  padding: 0 2%;
-  width: 30%
+  padding: 0 5%;
+  color: #282828;
+}
+.banner-text-block h2{
+
+  font-size: 4em;
+  padding: 5px;
+  font-weight: 500;
+  margin:0;
+}
+.banner-text-block h5{
+  font-size: 2.4em;
+  font-weight: 200;
 }
 
 /*resources*/
@@ -297,6 +316,17 @@ body .text-block.xxs-only{
 }
 
 @media (max-width: 991px){
+  .banner-text-block h2{
+
+    font-size: 3em;
+    padding: 3px;
+    font-weight: 400;
+    margin:0;
+  }
+  .banner-text-block h5{
+    font-size: 2.2em;
+    font-weight: 200;
+  }
   .md-above{
     display: none;
   }
@@ -334,6 +364,19 @@ body .text-block.xxs-only{
   }
 }
 @media (max-width: 767px){
+
+  .banner-text-block h2{
+
+    font-size: 2em;
+    padding: 3px;
+    font-weight: 400;
+    margin:0;
+  }
+  .banner-text-block h5{
+    font-size: 1.4em;
+    font-weight: 200;
+  }
+
   .sample .sm-above{
     display: none;
   }
@@ -349,6 +392,8 @@ body .text-block.xxs-only{
 }
 
 @media (max-width: 450px){
+
+
   h4{
     font-size: 2em;
   }
@@ -372,10 +417,20 @@ body .text-block.xxs-only{
     display: none;
   }
   .banner-text-block{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    display: inline-block;
-    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+  }
+  .banner-text-block h2{
+
+    font-size: 2em;
+    padding: 3px;
+    font-weight: 400;
+    margin:0;
+  }
+  .banner-text-block h5{
+    font-size: 1.4em;
+    font-weight: 200;
   }
 
   .resource{
