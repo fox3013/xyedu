@@ -171,7 +171,7 @@ body .text-block.xxs-only{
 /*互动课堂*/
 .smartclass{
   height: 695px;
-  background-image: url("../images/bg-smartclass.png");
+  background-image: url("../images/bg-smartclass.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -200,7 +200,7 @@ body .text-block.xxs-only{
 /*teaching mode*/
 .teaching-mode{
   min-height:650px;
-  background-image: url("../images/bg-classmode.png");
+  background-image: url("../images/bg-classmode.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
