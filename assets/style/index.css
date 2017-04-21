@@ -10,6 +10,10 @@
   min-height: 70px;
 }
 
+body{
+  color: #494949;
+}
+
 
 
 
@@ -57,9 +61,6 @@
 
 
 /*online-space*/
-
-
-
 .online-space{
   height: 700px;
   background-size: cover;
@@ -67,6 +68,7 @@
   background-position: 50% 60%;
   background-repeat: no-repeat;
   background-image: url("../images/bg-online-space.png");
+  background-color: #EEF0EF;
 }
 .online-space .text-block{
 
@@ -81,4 +83,41 @@
 .online-space p{
   padding-top: 20px;
   font-size: 1.1em;
+}
+
+/*teaching-space*/
+.teaching-space{
+  padding-top: 160px;
+  padding-bottom: 180px;
+}
+#teaching-image{
+  width: 100%;
+}
+.text-block{
+  text-align: center;
+  padding-top: 10px;
+}
+.teaching-text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.teaching-text h4{
+  font-size: 4em;
+  padding-right: 3px;
+}
+.teaching-subtext{
+  text-align: left;
+  padding-left: 3px;
+}
+.teaching-text h5{
+  padding-top: 3px;
+  font-size: 2.4em;
+  font-weight: 200;
+  margin:0;
+}
+.teaching-text p{
+  font-weight: 200;
+  margin: 0;
+  padding-top: 0px;
+  color: #6C6C6C;
 }
