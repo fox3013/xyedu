@@ -33,6 +33,7 @@ body .text-block.xxs-only{
 }
 
 
+
 /*Banner*/
 .banner{
   background-color: #EEFFFF;
@@ -61,6 +62,7 @@ body .text-block.xxs-only{
 }
 .resource h4{
   font-size: 6em;
+  font-weight: 500;
   color: #292929;
 }
 .resource .highlight{
@@ -277,6 +279,7 @@ body .text-block.xxs-only{
   }
   .resource p{
     font-size: 1.5em;
+
   }
   .teaching-text h5{
     font-size: 2em;
@@ -349,6 +352,9 @@ body .text-block.xxs-only{
   h4{
     font-size: 2em;
   }
+  .col-xs-7{
+    width: 58%;
+  }
 
   .xs-above{
     display: none;
@@ -385,10 +391,10 @@ body .text-block.xxs-only{
   }
   .online-space{
     height: 360px;
-    background-position: 70% 50%;
+    background-position: 80% 50%;
   }
   .online-space .text-block{
-    padding: 150px 0px 20px 53%;
+    padding: 150px 0px 20px 54.1%;
   }
 
   .online-space h4{
@@ -409,7 +415,7 @@ body .text-block.xxs-only{
   .teaching-space h5{
     display: none;
   }
-  .text-block.xxs-only{
+  body .text-block.xxs-only{
     display: inline-block;
     text-align: center;
     padding-left: 0;
