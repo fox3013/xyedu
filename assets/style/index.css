@@ -1,4 +1,4 @@
-/*.row.vdivide [class*='col-']:not(:last-child):after {
+.row.vdivide [class*='col-']:not(:last-child):after {
   background: #e0e0e0;
   width: 1px;
   content: "";
@@ -8,7 +8,7 @@
   bottom: 0;
   right: 0;
   min-height: 70px;
-}*/
+}
 
 
 
@@ -32,7 +32,7 @@
 /*resources*/
 
 .resource{
-  padding: 160px 0;
+  padding: 180px 0;
 }
 
 .resource .text-block
@@ -53,4 +53,32 @@
   font-size: 1.7em;
   color: #6b6b6b;
   font-weight: 300;
+}
+
+
+/*online-space*/
+
+
+
+.online-space{
+  height: 700px;
+  background-size: cover;
+  background-clip: content-box;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-image: url("../images/bg-online-space.png");
+}
+.online-space .text-block{
+
+  padding: 150px 0 0 74%;
+  text-shadow: 3px 3px 7px #ffffff;
+}
+.online-space h4
+{
+  font-size: 3em;
+}
+
+.online-space p{
+  padding-top: 20px;
+  font-size: 1.1em;
 }
