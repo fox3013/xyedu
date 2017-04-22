@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script type="text/javascript" src="./assets/scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="./assets/scripts/bootstrap.min.js"></script>
+    <script src="./assets/scripts/video/video.min.js"></script>
+    <script type="text/javascript" src="./assets/scripts/trial.js"></script>
     <link href="./assets/images/logo.png" type="image/x-icon" rel="icon">
     <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style/main.css" media="screen" title="no title">
@@ -45,8 +47,6 @@
 
       </div>
     </nav>
-
-
     <div class="video-trial">
       <div class="container">
         <div class="course-header">
@@ -54,15 +54,15 @@
         </div>
         <div class="video-wrapper">
           <ul>
-            <li class="active"><a href="#">力及作用的相互性</a></li>
-            <li><a href="#">完全平方公式</a></li>
-            <li><a href="#">嘉祥周考解析</a></li>
-            <li><a href="#">阅读讲析</a></li>
+            <li class="active" ><a class="video-button" data-id="video-force" data-src="0007c58a-fe11-4ada-a0a4-04a5386663a1" href="javascript:;">力及作用的相互性</a></li>
+            <li><a class="video-button" data-id="video-square" data-src="0007c58a-fe11-4ada-a0a4-04a5386663a3" href="javascript:;">完全平方公式</a></li>
+            <li><a class="video-button" data-id="video-weekly" data-src="0007c58a-fe11-4ada-a0a4-04a5386663a2" href="javascript:;">嘉祥周考解析</a></li>
+            <li><a class="video-button" data-id="video-reading" data-src="0007c58a-fe11-4ada-a0a4-04a5386663a4" href="javascript:;">阅读讲析</a></li>
           </ul>
 
           <div class="video">
-            <img id="video-cover"src="./assets/images/video-cover.png" alt="">
-            <img id="video-control" src="./assets/images/video-control.png" alt="">
+            <video id="video-cover" controls preload="none" src="http://ressync.xy.jxcstatic.com/0007c58a-fe11-4ada-a0a4-04a5386663a1" poster="./assets/images/img-video-force.png">
+            </video>
 
           </div>
 

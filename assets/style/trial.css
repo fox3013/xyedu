@@ -42,10 +42,6 @@ a:focus, a:hover{
 }
 
 
-/*.video-wrapper li:not(:last-child)
-{
-  margin-right: 5%;
-}*/
 .video-wrapper li a{
   color: #8A8A8A;
 }
@@ -61,22 +57,9 @@ a:focus, a:hover{
   padding-bottom: 8px;
   position: relative;
 }
-.video img#video-cover{
+.video video#video-cover{
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.video img#video-control{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-  width: 10%;
-  min-width: 60px;
-  opacity: 0.7;
-
-}
-.video img#video-control:hover{
-  opacity: 1;
 }
 
 .related{
@@ -156,7 +139,7 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
 
 .course-header{
   display: inline-block;
-  padding-right: 2%;
+  padding-right: 0.5%;
   width: 30%;
 }
 
@@ -178,6 +161,22 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
   display: inline-block;
 }
 
+
+/*video*/
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+
+
+
 @media (max-width: 1210px){
   .related{
     height: 68px;
@@ -187,6 +186,20 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
   }
   .related-item img{
     width: 45px;
+  }
+
+
+  .XycVeidoPlayer-dimensions{
+    width: 100%;
+    height: 600px;
+  }
+  .modal-nob{
+    width: 100%;
+    margin-top: 20%;
+
+  }
+  .modal-nob .modal-body-nob{
+    width: 100%;
   }
 }
 
@@ -229,6 +242,10 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
   .video-wrapper li{
     font-size: 0.8em;
   }
+
+  .modal-nob{
+    margin-top: 0;
+  }
 }
 
 @media (max-width: 450px) {
@@ -247,6 +264,16 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
   .related-list{
     width: 100%;
     padding: 12px 5px;
+  }
+
+  .modal-nob{
+    width: 100%;
+
+  }
+
+  .XycVeidoPlayer-dimensions{
+    width: 100%;
+    height: 400px;
   }
 
 
