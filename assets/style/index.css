@@ -198,6 +198,7 @@ body .text-block.xxs-only{
 }
 .smartclass table{
   color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 .smartclass .container{
   padding-top: 50px;
@@ -249,6 +250,10 @@ body .text-block.xxs-only{
   padding-top: 20px;
   font-size: 1.6em;
   font-weight: 200;
+}
+
+.card img{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 /*成功案例*/
