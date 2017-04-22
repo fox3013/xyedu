@@ -162,18 +162,7 @@ li.course-collections:nth-child(odd){background-color: #f0f0f0;}
 }
 
 
-/*video*/
-video::-internal-media-controls-download-button {
-    display:none;
-}
 
-video::-webkit-media-controls-enclosure {
-    overflow:hidden;
-}
-
-video::-webkit-media-controls-panel {
-    width: calc(100% + 30px); /* Adjust as needed */
-}
 
 
 
