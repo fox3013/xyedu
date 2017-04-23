@@ -1,11 +1,144 @@
-/*.row.vdivide [class*='col-']:not(:last-child):after {
-  background: #e0e0e0;
-  width: 1px;
-  content: "";
-  display:block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xxs-only{
+  display: none;
+}
+.history{
+  position: relative;
+  background-color: #eaf3f5
+}
+
+.history h3{
+  color: #4EAECA;
+  text-align: center;
+  font-size: 4.5em;
+  padding-top: 45px;
+  margin:0;
+}
+
+#histograph{
   position: absolute;
-  top:0;
-  bottom: 0;
-  right: 0;
-  min-height: 70px;
-}*/
+  left: 50%;
+  top:18%;
+  transform: translateX(-50%);
+}
+
+.history ul{
+  padding: 20px 10% 50px;
+}
+
+
+.history li{
+  height: 150px;
+  list-style-type: none;
+}
+.history li{
+  height: 149px;
+
+  list-style-type: none;
+  width: 100%;
+}
+.history li:nth-child(even){
+  text-align: right;
+}
+
+.history li:nth-child(even) h6{
+  text-align: left;
+}
+.history li:nth-child(odd) h6{
+  text-align: right;
+}
+
+.history li h6{
+
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  width: 32%;
+  font-size: 1.4em;
+  color: #798F9E;
+}
+
+.vruler{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+@media (max-width: 1210px){
+  .history li h6{
+    width: 25%;
+    font-size: 1.2em;
+    color: #798F9E;
+  }
+}
+
+@media (max-width: 991px){
+  .history li h6{
+    width: 25%;
+    font-size: 1.1em;
+  }
+  .history ul{
+    padding: 20px 5% 50px;
+  }
+  .history h3{
+    font-size: 3em;
+    padding-top: 45px;
+  }
+  #histograph{
+    top:16%;
+  }
+}
+
+@media (max-width: 767px){
+  .history ul{
+    padding: 20px 0 50px;
+  }
+  .history li h6{
+    width: 20%;
+  }
+}
+@media (max-width: 450px) {
+  #histograph{
+    display: none;
+  }
+  .history li h6{
+    width: 100%;
+  }
+
+  .history li h6 strong{
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 24px;
+  }
+
+  .history li:nth-child(even){
+    text-align: left;
+  }
+  .history li:nth-child(odd) h6{
+    text-align: left;
+  }
+  ul{
+    margin-left: 5%;
+  }
+  .history li{
+    height: 70px;
+    list-style-type: disc;
+  }
+
+  .xxs-only{
+    display: block;
+  }
+
+}
