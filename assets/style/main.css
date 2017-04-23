@@ -16,6 +16,7 @@ body{
   border-radius: 0;
   padding: 15px;
   background-color: #515151;
+  text-align: left;
 }
 .navbar-header-el{
   display: inline-block;

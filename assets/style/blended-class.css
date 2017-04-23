@@ -126,7 +126,7 @@ h6.white{
   background-color: #f8f8f8;
   padding: 48px 0;
 }
-.smart-class
+
 .smart-class .teacher-side{
   padding: 40px 0 10px;
 }
@@ -169,4 +169,188 @@ h6.white{
 }
 .question-img-wrapper{
   display: inline-block;
+}
+
+
+@media (max-width: 1210px){
+  .smart-class ul{
+    font-size: 1.8em;
+    line-height: 40px;
+    width: 40%;
+  }
+  .teacher-side-image{
+    width: 50%;
+    padding-left: 6%;
+  }
+  .student-side-image{
+    width: 50%;
+    padding-right: 16%;
+  }
+
+  .teacher-side-image img, .student-side-image img{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 991px){
+  h4{
+    font-size: 1.8em;
+    margin: 0;
+    padding: 8px 0;
+    line-height: 32px;
+  }
+  .smart-class ul{
+    font-size: 1.5em;
+    line-height: 34px;
+  }
+  .smart-class .teacher-side ul{
+    padding-right: 5%;
+  }
+  .report-section{
+    padding-top: 40px;
+    width: 100%;
+  }
+  .report-section img{
+    width: 100%;
+  }
+  .question-img-wrapper{
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px){
+  h1{
+    font-size: 3em;
+    padding-bottom: 16px;
+  }
+  h2{
+    font-size: 2.4em;
+    padding-top: 16px;
+    padding-bottom: 30px;
+  }
+
+  h2.white{
+    font-size: 2.6em;
+  }
+
+  h3{
+    font-size: 1.6em;
+  }
+
+  h4{
+    font-size: 1.4em;
+    padding: 10px 0;
+    line-height: 32px;
+  }
+
+  .card{
+    width: 40%;
+    margin: 0 2%;
+  }
+
+  .feature img{
+    width: 20%;
+  }
+
+  .teacher{
+    background-position: 40%;
+    height: 480px;
+  }
+
+  .teacher .text-block{
+    padding-right: 40%;
+  }
+  .student{
+    background-position: 70%;
+    height: 480px;
+  }
+  .student .text-block{
+    padding-left: 30%;
+  }
+}
+
+@media (max-width: 450px){
+  h1{
+    font-size: 2.8em;
+    padding-bottom: 16px;
+  }
+  h2{
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h2.white{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 1.4em;
+  }
+
+  h4{
+    font-size: 1.2em;
+    padding: 10px 0;
+    line-height: 32px;
+  }
+  h5{
+    font-size: 1.2em;
+    padding:5px 0 8px;
+  }
+  h6{
+    color: #A6a6a6;
+    font-size: 1.1em;
+    font-weight: 200;
+    line-height: 22px;
+
+  }
+
+  .header .resources{
+    padding-top: 20px;
+  }
+  .card{
+    width: 45%;
+    padding: 20px 0;
+  }
+  .card img{
+    width: 50%;
+  }
+
+  .teacher .text-block{
+    padding-top: 80px;
+    padding-right: 0;
+  }
+  .student, .teacher{
+    height: 360px;
+  }
+  .student .text-block{
+    padding-left: 0;
+  }
+
+  .smart-class .teacher-side{
+    padding-top: 20px;
+  }
+  .smart-class ul{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 0;
+    width: 50%;
+  }
+  .smart-class .teacher-side-image, .smart-class .student-side-image{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .smart-class .student-side{
+    padding: 40px 0;
+  }
+  .student-side-image{
+    padding-left: 2%;
+    padding-right: 8%;
+  }
+
+
 }
