@@ -1,0 +1,351 @@
+.banner{
+  background-color: #EBFEFF;
+  height: 364px;
+  text-align: center;
+}
+.banner .banner-left, .banner-right {
+  display: inline-block;
+  vertical-align: middle;
+}
+.banner-content h1{
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+}
+.banner-content h4{
+  font-size: 40px;
+  font-weight: normal;
+  color: #6b6b6b;
+  margin: 0;
+  text-align: left;
+  padding-top: 10px;
+}
+.banner .banner-left{
+  width: 500px;
+  padding-top: 70px;
+}
+.banner .banner-right img{
+  padding-top: 50px;
+}
+.detail{
+
+  background: #747e7f;
+  text-align: center;
+}
+.detail p{
+  margin: 0;
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  color: #e8e8e8;
+  padding: 30px 0;
+  font-weight: lighter;
+}
+.resource{
+  text-align: center;
+  background-color: #FADDCB;
+}
+.resource ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.resource ul li{
+  padding: 5px 20px;
+}
+.resource .icon, .book{
+  display: inline-block;
+  vertical-align: middle;
+
+}
+.resource .book{
+  padding: 50px 110px;
+}
+
+.resource .icon{
+  padding: 60px 90px 40px 90px;
+}
+.resource .icon h4{
+  margin: 0;
+  padding: 15px 0;
+  font-size: 1.5em;
+  color: #2E2E2E;
+}
+
+.edu-resource{
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 80px 0 120px 0;
+}
+.edu-resource h1{
+  margin: 0;
+  padding: 20px 0;
+  font-size: 4em;
+}
+.edu-resource h4{
+  margin: 0;
+  padding: 0px 0 80px 0;
+  color: #999999;
+}
+.edu-resource p{
+  color: #4A4A4A;
+  font-weight: 200;
+  margin: 0;
+}
+.edu-resource ul{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.edu-resource li{
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  width: 15%;
+}
+
+.edu-resource h3{
+  margin:0;
+  padding: 10px 0;
+}
+.edu-resource li img{
+  width: 80%;
+  max-width: 150px;
+  min-width: 100px;
+}
+
+.class{
+  background-image: url(../images/cloud-class/class-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+}
+.class h1{
+  margin: 0;
+  font-size: 4em;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 150px 0 0 0;
+  font-size: 5em;
+  font-weight: 400;
+}
+.class ul{
+  margin: 0;
+  padding: 100px 0 150px 0;
+}
+.class ul li{
+  display: inline-block;
+  width: 400px;
+}
+.class h3{
+  padding: 60px 0 0 0;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+
+.teacher{
+  background-color: #F3F7F5;
+  padding: 120px 10%;
+}
+.teacher .rectangle{
+  display: inline-block;
+  vertical-align: middle;
+  height: 56px;
+  width: 5px;
+  background-color: #1ACAD4;
+  margin-right: 0.2%;
+}
+.teacher .title h1{
+  font-size: 4.6em;
+  display: inline-block;
+  margin: 0;
+  font-weight: 300;
+  vertical-align: middle;
+  color: #3D3D3D;
+}
+.teacher ul{
+  padding: 50px 0;
+}
+.teacher li{
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+
+}
+
+.teacher li img, .teacher li .text-block{
+  display: inline-block;
+  vertical-align: middle;
+}
+.teacher li img{
+  width: 14%;
+}
+.teacher li .text-block{
+  padding-left: 10%;
+  width: 60%;
+}
+.teacher .h3{
+  color: #333333;
+}
+
+.teacher .text-block p{
+  font-size: 1.2em;
+  color: #797979;
+}
+
+
+@media (max-width: 1210px){
+  .banner{
+    height: auto;
+  }
+  .neirong{
+    padding-bottom: 60px;
+  }
+  .banner-right{
+    width: 40%;
+  }
+  .banner-right img{
+    width: 100%;
+  }
+  .banner .banner-left{
+    width: 50%;
+  }
+  .banner-left h1{
+    font-size: 4em;
+  }
+  .banner-left h4{
+    font-size: 2em;
+  }
+  .resource .book{
+    display: none;
+  }
+  .edu-resource p{
+    font-size: 0.8em;
+  }
+  .edu-resource li img{
+    width: 60%;
+  }
+  .edu-resource li h3{
+    font-size: 1.2em;
+  }
+  .class h1{
+    padding-top: 100px;
+    font-size: 4em;
+  }
+  .class ul li{
+    width: 30%;
+  }
+  .class ul li img{
+    width: 50%;
+  }
+  .class ul li h3{
+    padding-top: 30px;
+    font-size: 1.6em;
+  }
+  .teacher{
+    padding: 100px 8%;
+  }
+  .teacher li .text-block{
+    width: 80%;
+  }
+}
+
+@media (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+}
+@media (max-width: 450px){
+  .banner-left h1{
+    font-size: 2em;
+  }
+  .banner-left h4{
+    font-size: 1em;
+  }
+  .banner .banner-left{
+    padding-top: 40px;
+  }
+  .neirong{
+    padding-bottom: 40px;
+  }
+  .detail p{
+    font-size: 0.9em;
+    padding: 16px 0;
+  }
+  .resource .icon{
+    padding: 30px 10%;
+  }
+  .resource .icon ul{
+    width: 49%;
+  }
+  .resource .icon ul img{
+    width: 100%;
+  }
+  .resource .icon ul h4{
+    font-size: 1.2em;
+  }
+  .edu-resource{
+    padding: 40px 0;
+  }
+  .edu-resource h1{
+    font-size: 2em;
+  }
+  .edu-resource h4{
+    font-size: 1em;
+    line-height: 1.4em;
+    padding-bottom: 20px;
+  }
+  .edu-resource ul li{
+    width: 45%;
+    padding-bottom: 20px;
+  }
+
+  .class h1{
+    padding-top: 60px;
+    font-size: 2em;
+  }
+  .class ul{
+    padding: 50px 0;
+  }
+  .class ul li h3{
+    padding: 0;
+    font-size: 0.8em;
+  }
+  .teacher{
+    padding: 50px 6%;
+  }
+  .teacher .rectangle{
+    height: 30px;
+    width: 3px;
+  }
+  .teacher .title h1{
+    font-size: 2em;
+  }
+  .teacher ul{
+    padding-top: 10px;
+  }
+  .teacher ul li{
+    width: 100%;
+  }
+  .teacher li img{
+    width: 20%;
+  }
+  .teacher li .text-block{
+    width: 78%;
+  }
+  .teacher li .text-block h3{
+    font-size: 1.2em;
+  }
+  .teacher li .text-block p{
+    font-size: 0.9em;
+  }
+
+
+}

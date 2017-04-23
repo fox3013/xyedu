@@ -2,13 +2,168 @@
 
 
 
+ul{
+  padding-left: 0;
+}
+body{margin: 0;}
+.banner{
+  height: 600px;
+  background-image: url(../images/pics/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 30px;}
+
+.banner h1, .banner h2{
+  padding-left: 140px;
+  color: white;}
+
+.banner h1{
+  font-size: 5.4em;
+  padding-top: 160px;
+  font-weight: 400;
+  margin: 0;}
+
+.banner h2{
+  font-size: 2.5em;
+  font-weight: 300;
+  padding-top: 10px;
+  margin: 0;}
+
+.introduce {
+  text-align: center;
+  background-color: #EDF5F1;}
+
+.introduce h1{
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #81C87B;
+  padding-top: 40px;
+  margin: 0;}
+
+.introduce .p2{
+  line-height: 30px;}
+
+.introduce p{
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 15px;
+  text-align: left;
+  padding-left: 16%;
+  padding-right: 12%;
+  color: #7F8677;}
+
+.introduce .p1{
+  padding-top: 20px;}
+
+.introduce li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 50px 40px 50px;}
+
+.introduce ul{margin: 0;}
+
+.introduce h2,h3{
+  font-size: 1.3em;
+  color: #81C87B;
+  font-weight: normal;
+  line-height: 20px;}
 
 
 
 
+.introduce .jpg1 img{border:1px solid #81C87B;
+  padding:5px 5px;}
+
+.introduce .jpg2 img{border:1px solid #81C87B;
+  padding:5px 5px;}
+
+.hope {
+  background-color: #F3EFE1;
+  text-align: center;}
+
+.hope h1{
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #CC923D;
+  padding-top: 50px;
+  line-height: 24px;
+  margin: 0;}
+
+.hope p{
+  color: #8A877A;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 24px;}
+
+.hope li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 60px 2% 30px;}
+
+.hope ul{
+  margin: 0;
+  padding-bottom: 50px;}
+
+.hope li p{
+  text-align: left;
+  padding: 10px 29% 20px;
+  margin: 0;}
+
+.hope .png2 p{padding:10px 32% 20px;}
+
+.hope h2{
+  font-size: 1.7em;
+  color: #CC923D;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 20px;}
+
+.hope .png1 img{width: 80%;}
+.hope .png2 img{width: 70%;}
+.hope .png3 img{width: 80%;}
+
+.hope .p1{
+  color: #827878;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding-top: 40px;
+  margin: 0;}
+
+.hope .p2{
+  color: #827878;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding-top: 5px;
+  margin: 0;}
 
 
 
+.duty {background-color: #F5E9E9;}
+
+.duty h1{
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #D76E6E;
+  margin: 0;
+  padding-top: 40px;}
+
+.duty{
+  background-color: #F5E9E9;
+  margin: 0;
+  text-align: center;}
+
+.duty div{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 40px 20px 60px;}
+
+.duty img{width: 90%;}
+
+.duty p{
+  text-align:left;
+  font-size: 1.6em;
+  font-weight: normal;
+  color: #9B9090;}
 
 
 
@@ -101,6 +256,22 @@
     top:16%;
   }
 }
+
+@media (max-width: 768px) {
+  .banner h2{font-size: 2em}
+
+  .introduce p{
+    font-size: 1.1em;
+    line-height: 20px;}
+
+
+  .hope h2{font-size: 1.4em;}
+  .hope li{width: 30%;}
+  .hope .png2 p {padding: 10px 21% 20px;}
+  .hope li p {padding: 10px 20% 20px;}
+}
+
+
 
 @media (max-width: 767px){
   .history ul{
