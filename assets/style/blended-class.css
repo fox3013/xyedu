@@ -14,6 +14,7 @@ h1{
 h2{
   color: #666666;
   font-size: 3.6em;
+  padding-top: 20px;
   padding-bottom: 60px;
   margin:0;
 }
@@ -159,4 +160,13 @@ h6.white{
 
 .report{
   padding: 60px 0;
+}
+.report-section{
+  padding-top: 70px;
+}
+.image-wrappers{
+  padding-top: 50px;
+}
+.question-img-wrapper{
+  display: inline-block;
 }
