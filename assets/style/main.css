@@ -95,6 +95,9 @@ li.nav-item .nav-a{
   color: #999999;
   text-align: left;
 }
+.footer h3{
+  color: #999999;
+}
 .contact-table{
   font-size: 20px;
   margin-top: 20px;
@@ -142,6 +145,7 @@ li.nav-item .nav-a{
   }
   .footer h3{
     font-size: 1em;
+    color: rgb(153, 153, 153);
   }
 
   .contact-table td{
