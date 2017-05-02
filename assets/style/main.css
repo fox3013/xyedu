@@ -110,6 +110,10 @@ li.nav-item .nav-a{
   padding-right: 30px;
 }
 
+.footer a{
+  font-size: 1em;
+  color: #999999;
+}
 .copyright{
   display: inline-block;
   font-size: 16px;
@@ -159,6 +163,7 @@ li.nav-item .nav-a{
     font-size: 1em;
     color: rgb(153, 153, 153);
   }
+
 
   .contact-table td{
     font-size: 0.5em;
